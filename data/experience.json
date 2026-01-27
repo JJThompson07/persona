@@ -9,28 +9,16 @@
           "end": "PRESENT",
           "descriptions": [
             {
-              "topic": "Department Leadership",
-              "description": "Leading a cross-functional team of 7 (Front End, Back End, C#), championing two Principal Engineers to define technical governance and ensure structural consistency."
+              "topic": "Strategic Leadership",
+              "description": "Lead a cross-functional team of 7. Championed MVP strategies that reduced AI feature time-to-market by 75%."
             },
             {
-              "topic": "Culture & Morale",
-              "description": "Fostered a positive engineering culture by introducing a peer-recognition 'Kudos' system in retrospectives, improving team cohesion and motivation."
+              "topic": "Delivery & Modernisation",
+              "description": "Orchestrated a critical 6-week technical rebrand and led the infrastructure migration to GitHub & Azure App Config."
             },
             {
-              "topic": "Process Governance",
-              "description": "Designed and implemented a comprehensive Defect Policy to standardise issue lifecycle management, ensuring accurate reporting on feature progress."
-            },
-            {
-              "topic": "Strategic Product Delivery",
-              "description": "Spearheaded the implementation of the AI Case Response feature, pushing for an MVP approach that reduced time-to-market by 75%. Achieving record usage for a new feature and resulting in a change of strategy to adopt the MVP approach."
-            },
-            {
-              "topic": "Critical Project Delivery",
-              "description": "Orchestrated the urgent technical rebrand from 'FeedItBack' to '125 Data & Insights' within a strict 6-week deadline, updating all product suites and solving critical legacy theming issues."
-            },
-            {
-              "topic": "Infrastructure Modernisation",
-              "description": "Led the migration of all services from Bitbucket to GitHub, simultaneously modernising security practices by converting environment variables and secrets to Azure App Configuration."
+              "topic": "Culture & Process",
+              "description": "Defined technical governance, standardized defect policies, and introduced peer-recognition systems to boost morale."
             }
           ]
         },
@@ -41,23 +29,15 @@
           "descriptions": [
             {
               "topic": "Technical Authority",
-              "description": "Served as the Front End representative, owning architectural decisions and standardising development practices across the team."
+              "description": "Owned FE architecture and finalized the internal component library (npm rollup) to standardize UI across the suite."
             },
             {
-              "topic": "People Management (FE)",
-              "description": "Conducted regular 1-to-1s and formal performance reviews for Front End developers, facilitating professional growth and setting clear performance goals."
+              "topic": "Agile Leadership",
+              "description": "Primary FE representative in Agile ceremonies, ensuring accurate scoping and enforcing ticket readiness standards."
             },
             {
-              "topic": "Agile Representation",
-              "description": "Acted as the primary Front End representative in key Agile ceremonies (4 Amigos, Refinement, Sprint Updates), ensuring technical feasibility and accurate scoping of UI requirements before development."
-            },
-            {
-              "topic": "Workload & Quality Management",
-              "description": "Delegated development tasks and enforced strict ticket readiness standards on Jira, ensuring all requirements and acceptance criteria were defined."
-            },
-            {
-              "topic": "Architectural Standardisation",
-              "description": "Finalised the internal component library (npm rollup), standardising UI elements across the product suite to ensure brand consistency and reduce development time."
+              "topic": "Mentorship",
+              "description": "Managed performance reviews and facilitated professional growth for the Front End team."
             }
           ]
         },
@@ -68,23 +48,15 @@
           "descriptions": [
             {
               "topic": "Migration & Performance",
-              "description": "Implemented a critical system update from Vue2 to Vue3 & TypeScript, resulting in an over 20% increase in application performance and accessibility."
+              "description": "Implemented a critical system update from Vue2 to Vue3 & TypeScript, resulting in an over 20% increase in application performance."
             },
             {
-              "topic": "Component Architecture",
-              "description": "Built a reusable component library for the FeedItBack system, hosted as a private npm package to ensure UI consistency across all front end microservices."
-            },
-            {
-              "topic": "Documentation & UX",
-              "description": "Developed a Storybook instance for the component library, providing a streamlined user experience for visualising and implementing new components and features."
-            },
-            {
-              "topic": "Testing Culture",
-              "description": "Created a structured approach to unit tests using Vitest, achieving >85% coverage across all sections; this standard was subsequently adopted by the wider team."
+              "topic": "Architecture & Testing",
+              "description": "Built a reusable component library with Storybook documentation and established a Vitest testing culture achieving >85% coverage."
             },
             {
               "topic": "Full Stack Delivery",
-              "description": "Developed the company's first 'JS only' product: a client dashboard using a Vue3 UI and an Express.js/Sequelize API."
+              "description": "Developed the company’s first ‘JS only’ product: a client dashboard using a Vue3 UI and an Express.js/Sequelize API."
             }
           ]
         }
@@ -100,7 +72,7 @@
           "descriptions": [
             {
               "topic": "Technical Oversight",
-              "description": "Played a lead role in the development of Mallcomm Front End, introducing structured workflows that improved plugin performance and maintainability."
+              "description": "Played a lead role in the development of Mallcomm Front End, introducing structured workflows that improved plugin performance."
             },
             {
               "topic": "Process Improvement",
@@ -123,12 +95,12 @@
           "end": "APR 2019",
           "descriptions": [
             {
-              "topic": "",
-              "description": "Implemented responsive, interactive, and accessible UI/UX designs across Drupal 7 and Drupal 8 e-commerce sites for high-profile clients (e.g., National Forest, FCA)."
+              "topic": "UI/UX Implementation",
+              "description": "Implemented responsive, accessible UI/UX designs across Drupal 7/8 sites for high-profile clients (e.g., National Forest, FCA)."
             },
             {
-              "topic": "",
-              "description": "Utilised BEM methodology to create well-structured, reusable Front End code, increasing development speed and easing debugging."
+              "topic": "Methodology",
+              "description": "Utilised BEM methodology to create well-structured, reusable Front End code, increasing development speed."
             }
           ]
         }

@@ -1,8 +1,8 @@
 <template>
-  <card-animated ref="experienceCard" class="relative w-full">
+  <card-animated ref="experienceCard" class="relative">
     <header class="flex flex-col border-b border-gray-900 p-2">
       <h2 class="mb-0 text-xl font-semibold">{{ title }}</h2>
-      <div class="flex items-end justify-between text-gray-500">
+      <div class="flex items-end justify-between text-gray-400">
         <h2 class="mb-0 text-sm font-semibold">{{ company }}</h2>
         <p class="text-sm dark:text-gray-400">{{ start }} - {{ end }}</p>
       </div>

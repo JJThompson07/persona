@@ -1,12 +1,17 @@
 <template>
-  <div class="description mb-2 text-xs" :class="{ tagged: tag }">
+  <div
+    class="description mb-2 flex flex-col items-start gap-2 text-xs leading-relaxed md:grid"
+    :class="{ tagged: tag }"
+  >
     <span
       v-if="tag"
-      :class="theme === 'kitsune' ? 'text-kitsune-300' : 'text-tanuki-300'"
-      class="text-sm font-semibold"
-      >{{ tag }}:
+      :class="theme === 'kitsune' ? 'bg-kitsune-600' : 'bg-tanuki-600'"
+      class="mr-2 w-max rounded-full px-2 py-1 text-center text-xs font-semibold whitespace-nowrap text-white"
+      >{{ tag }}
     </span>
-    <slot />
+    <div class="flex-1">
+      <slot />
+    </div>
   </div>
 </template>
 
@@ -25,10 +30,7 @@ const theme = computed<Theme>(() => uiStore.theme);
 </script>
 
 <style scoped>
-.description {
-  &.tagged {
-    display: grid;
-    grid-template-columns: 2fr 5fr;
-  }
+.tagged {
+  grid-template-columns: 200px 3fr;
 }
 </style>

@@ -36,7 +36,6 @@
                 :title="role.title"
                 :start="role.start"
                 :end="role.end"
-                class="flex-1"
                 @hovered="$event ? (hoveredStart = role.start) : (hoveredStart = null)"
               >
                 <experience-description
@@ -95,6 +94,6 @@ onMounted(() => {
 
 <style scoped>
 .experience-grid {
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 1fr 3fr;
 }
 </style>
