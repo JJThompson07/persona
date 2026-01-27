@@ -1,5 +1,9 @@
 <template>
-  <div class="m-4 flex-1 overflow-auto rounded-xl bg-gray-800 shadow-md">
+  <div
+    ref="routerView"
+    class="m-4 flex-1 rounded-xl bg-gray-800 shadow-md"
+    :class="isHovered ? 'overflow-auto' : 'overflow-hidden'"
+  >
     <header
       class="mb-4 border-b-4 p-2 text-2xl font-bold text-gray-100"
       :class="theme === 'kitsune' ? 'border-kitsune-600' : 'border-tanuki-600'"
@@ -13,17 +17,21 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 import { useUIStore, type Theme } from '../stores/ui';
+import { useElementHover } from '@vueuse/core';
 
 const uiStore = useUIStore();
 const theme = computed<Theme>(() => uiStore.theme);
+
+const routerView = ref<HTMLElement | null>(null);
+const isHovered = useElementHover(routerView);
 </script>
 
 <style scoped>
 /* Hide the scrollbar track */
 ::-webkit-scrollbar {
-  width: 8px; /* or your preferred width */
+  width: 4px; /* or your preferred width */
   background: transparent; /* makes the track invisible */
 }
 

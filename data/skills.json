@@ -1,0 +1,219 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "section": "Leadership",
+      "name": "Technical Strategy",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 2,
+      "section": "Leadership",
+      "name": "Team Management",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 3,
+      "section": "Leadership",
+      "name": "Agile Methodology",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 4,
+      "section": "Leadership",
+      "name": "Stakeholder Management",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 5,
+      "section": "Front End",
+      "name": "Vue.js (Vue 2, Vue 3, Composition API)",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 6,
+      "section": "Front End",
+      "name": "TypeScript",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 7,
+      "section": "Front End",
+      "name": "JavaScript (ES6+)",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 8,
+      "section": "Front End",
+      "name": "Storybook",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 9,
+      "section": "Front End",
+      "name": "HTML5",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 10,
+      "section": "CSS & Design",
+      "name": "Tailwind",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 11,
+      "section": "CSS & Design",
+      "name": "SCSS/SASS",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 12,
+      "section": "CSS & Design",
+      "name": "BEM",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 13,
+      "section": "CSS & Design",
+      "name": "Flexbox",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 14,
+      "section": "CSS & Design",
+      "name": "CSS Grid",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 15,
+      "section": "CSS & Design",
+      "name": "Responsive UI/UX",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 16,
+      "section": "CSS & Design",
+      "name": "Accessibility (AXE, JAWS)",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "id": 17,
+      "section": "Back End & API",
+      "name": "Node.js",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Back End & API",
+      "name": "Express.js",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Back End & API",
+      "name": "PHP (Laravel, CodeIgniter)",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Back End & API",
+      "name": "SQL (MySQL, MariaDB)",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Back End & API",
+      "name": "RESTful APIs",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Testing",
+      "name": "Vitest",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Testing",
+      "name": "BrowserStack",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Cloud & DevOps",
+      "name": "Azure (App Configuration)",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Cloud & DevOps",
+      "name": "Docker",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Cloud & DevOps",
+      "name": "GitHub Actions",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Cloud & DevOps",
+      "name": "Nginx",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Cloud & DevOps",
+      "name": "CI/CD Pipelines",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Tools",
+      "name": "Jira",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Tools",
+      "name": "Git ( GitHub / GitLab / Bitbucket )",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Tools",
+      "name": "Postman",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Tools",
+      "name": "VS Code",
+      "experience": "",
+      "years": ""
+    },
+    {
+      "section": "Tools",
+      "name": "npm/pnpm",
+      "experience": "",
+      "years": ""
+    }
+  ]
+}
