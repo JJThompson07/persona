@@ -13,8 +13,8 @@ const router = createRouter({
       component: () => import('../views/HomeView.vue'),
       meta: {
         icon: House,
-        label: 'Home',
-      },
+        label: 'Home'
+      }
     },
     {
       path: '/experience',
@@ -22,10 +22,10 @@ const router = createRouter({
       component: () => import('../views/ExperienceView.vue'),
       meta: {
         icon: Waypoints,
-        label: 'Experience',
-      },
-    },
-  ],
+        label: 'Experience'
+      }
+    }
+  ]
 });
 
 export default router;

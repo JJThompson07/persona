@@ -5,12 +5,12 @@ import skipFormatting from '@vue/eslint-config-prettier/skip-formatting';
 export default [
   {
     name: 'app/files-to-lint',
-    files: ['**/*.{ts,mts,tsx,vue}'],
+    files: ['**/*.{ts,mts,tsx,vue}']
   },
 
   {
     name: 'app/ignores',
-    ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**'],
+    ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**']
   },
 
   // 1. Vue Essential Rules
@@ -20,5 +20,5 @@ export default [
   ...vueTsEslintConfig(),
 
   // 3. Turn off rules that conflict with Prettier
-  skipFormatting,
+  skipFormatting
 ];

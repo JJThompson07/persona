@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen bg-gray-600 text-gray-50">
+  <div class="flex h-screen flex-col bg-gray-600 text-gray-50">
     <nav-bar />
-    <RouterView />
+    <RouterView class="flex-1" />
   </div>
 </template>
 

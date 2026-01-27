@@ -35,6 +35,6 @@ export const useUIStore = defineStore('ui', () => {
   return {
     theme,
     toggleTheme,
-    setTheme,
+    setTheme
   };
 });

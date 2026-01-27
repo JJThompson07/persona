@@ -6,6 +6,6 @@ import tailwindcss from '@tailwindcss/vite'; // <--- Add this import
 export default defineConfig({
   plugins: [
     vue(),
-    tailwindcss(), // <--- Add this to the plugins array
-  ],
+    tailwindcss() // <--- Add this to the plugins array
+  ]
 });
