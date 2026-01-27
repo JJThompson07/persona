@@ -9,12 +9,12 @@
         <header>
           <h3 class="mb-4 text-xl font-semibold">Skills</h3>
         </header>
-        <div class="grid grid-cols-3 gap-4 sm:grid-cols-4 md:grid-cols-6">
+        <div class="skills-grid grid items-stretch gap-4">
           <card-animated v-for="skill in skills" :key="skill.id">
-            <div class="flex flex-1 items-center justify-center p-2">
-              <span class="text-center text-sm">
-                {{ skill.name }}
-              </span>
+            <div
+              class="flex flex-1 items-center justify-center p-2 text-center text-sm font-semibold"
+            >
+              {{ skill.name }}
             </div>
           </card-animated>
         </div>
@@ -45,4 +45,9 @@ onMounted(() => {
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.skills-grid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 1fr;
+}
+</style>
