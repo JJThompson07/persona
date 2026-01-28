@@ -21,7 +21,7 @@
         v-for="route in routes"
         :key="route.name"
         :to="route.path"
-        class="text-gray-100 capitalize transition-colors duration-300 ease-in-out"
+        class="text-gray-50 capitalize transition-colors duration-300 ease-in-out"
         :class="[theme === 'kitsune' ? 'hover:text-kitsune-400' : 'hover:text-tanuki-400']"
         :active-class="theme === 'kitsune' ? 'text-kitsune-600' : 'text-tanuki-600'"
       >

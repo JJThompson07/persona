@@ -5,7 +5,7 @@
     :class="isHovered ? 'overflow-auto' : 'overflow-hidden'"
   >
     <header
-      class="mb-4 border-b-4 p-2 text-2xl font-bold text-gray-100"
+      class="mb-4 border-b-4 p-2 text-2xl font-bold text-gray-50"
       :class="theme === 'kitsune' ? 'border-kitsune-600' : 'border-tanuki-600'"
     >
       <slot name="header" />

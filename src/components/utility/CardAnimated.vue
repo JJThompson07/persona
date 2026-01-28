@@ -1,6 +1,6 @@
 <template>
-  <div ref="cardAnimated" class="relative overflow-hidden rounded-lg bg-gray-700 p-1">
-    <section class="relative z-10 flex h-full flex-col rounded-md bg-gray-700">
+  <div ref="cardAnimated" class="relative overflow-hidden rounded-lg bg-gray-700 p-1 select-none">
+    <section class="relative z-10 flex h-full flex-col rounded-md bg-inherit">
       <slot />
     </section>
     <span

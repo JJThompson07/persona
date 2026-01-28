@@ -23,7 +23,7 @@
       class="slider-button-button relative bg-transparent px-3 py-2 text-center font-medium"
       :class="[
         allowTransition ? 'transition-all duration-300 ease-in-out' : '',
-        selectedOption === option.value ? 'text-gray-100' : 'text-gray-900'
+        selectedOption === option.value ? 'text-gray-50' : 'text-gray-900'
       ]"
       @click="onClick(option.value)"
     >

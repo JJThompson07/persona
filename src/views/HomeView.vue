@@ -11,7 +11,7 @@
             <h3 class="mb-2 text-xl font-semibold">Skills</h3>
             <div
               v-show="width <= 900"
-              class="relative flex cursor-pointer items-center gap-1 rounded-full px-3 py-1 text-sm font-semibold text-gray-900 transition-all duration-300 ease-in-out select-none hover:text-gray-100"
+              class="relative flex cursor-pointer items-center gap-1 rounded-full px-3 py-1 text-sm font-semibold text-gray-900 transition-all duration-300 ease-in-out select-none hover:text-gray-50"
               :class="
                 theme === 'kitsune'
                   ? 'bg-kitsune-100 hover:bg-kitsune-500'
@@ -41,13 +41,13 @@
           </div>
         </header>
         <div class="skills-grid grid items-stretch gap-4">
-          <card-animated v-for="skill in filteredSkills" :key="skill.id">
+          <card-shimmer v-for="skill in filteredSkills" :key="skill.id">
             <div
               class="flex flex-1 items-center justify-center p-2 text-center text-sm font-semibold"
             >
               {{ skill.name }}
             </div>
-          </card-animated>
+          </card-shimmer>
         </div>
       </section>
     </template>
@@ -59,7 +59,8 @@ import RouterLayout from '../components/RouterLayout.vue';
 import { House, ChevronUp } from 'lucide-vue-next';
 import skillsData from '../../data/skills.json';
 import { computed, onMounted, ref, watch } from 'vue';
-import CardAnimated from '../components/utility/CardAnimated.vue';
+// import CardAnimated from '../components/utility/CardAnimated.vue';
+import CardShimmer from '../components/utility/CardShimmer.vue';
 import SliderButton, { type SliderButtonOption } from '../components/utility/SliderButton.vue';
 import { useWindowSize } from '@vueuse/core';
 import { useUIStore, type Theme } from '../stores/ui';
