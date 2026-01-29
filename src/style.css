@@ -23,6 +23,10 @@
   --color-kitsune-800: #953e0b;
   --color-kitsune-900: #7a330d;
   --color-kitsune-950: #461902;
+  --text-caption: 0.625rem;
+  --text-caption--line-height: 1.5rem;
+  --text-caption--letter-spacing: 0.125rem;
+  --text-caption--font-weight: 500;
 }
 
 :root {

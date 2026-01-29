@@ -11,7 +11,7 @@
       v-for="ripple in ripples"
       :key="ripple.id"
       :style="{ left: `${ripple.x}px`, top: `${ripple.y}px` }"
-      class="ripple absolute h-1 w-1 rounded-full transition-all duration-700 ease-in-out"
+      class="ripple absolute h-1 w-1 rounded-full transition-all duration-700 ease-out"
       :class="theme === 'kitsune' ? 'bg-kitsune-500' : 'bg-tanuki-500'"
     ></span>
   </div>
@@ -22,6 +22,8 @@ import { computed, watch } from 'vue';
 import { useUIStore, type Theme } from '../../stores/ui';
 import { useElementHover, useMouseInElement } from '@vueuse/core';
 import { ref } from 'vue';
+
+const emit = defineEmits(['hovered']);
 
 const cardAnimated = ref<HTMLElement | null>(null);
 const isHovered = useElementHover(cardAnimated);
@@ -54,6 +56,14 @@ watch(
     }
   },
   { deep: true }
+);
+
+watch(
+  isHovered,
+  (newHovered) => {
+    emit('hovered', newHovered);
+  },
+  { immediate: true }
 );
 </script>
 

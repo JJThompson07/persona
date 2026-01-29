@@ -5,215 +5,245 @@
       "section": "Leadership",
       "name": "Technical Strategy",
       "experience": "",
-      "years": ""
+      "years": 2
     },
     {
       "id": 2,
       "section": "Leadership",
       "name": "Team Management",
       "experience": "",
-      "years": ""
+      "years": 2
     },
     {
       "id": 3,
       "section": "Leadership",
       "name": "Agile Methodology",
       "experience": "",
-      "years": ""
+      "years": 3
     },
     {
       "id": 4,
       "section": "Leadership",
       "name": "Stakeholder Management",
       "experience": "",
-      "years": ""
+      "years": 4
     },
     {
       "id": 5,
       "section": "Front End",
-      "name": "Vue.js (Vue 2, Vue 3, Composition API)",
+      "name": "Vue.js (Vue 2)",
       "experience": "",
-      "years": ""
+      "years": 7
     },
     {
       "id": 6,
       "section": "Front End",
-      "name": "TypeScript",
+      "name": "Vue.js (Vue 3)",
       "experience": "",
-      "years": ""
+      "years": 5
     },
     {
       "id": 7,
       "section": "Front End",
-      "name": "JavaScript (ES6+)",
+      "name": "TypeScript",
       "experience": "",
-      "years": ""
+      "years": 5
     },
     {
       "id": 8,
       "section": "Front End",
-      "name": "Storybook",
+      "name": "JavaScript (ES6+)",
       "experience": "",
-      "years": ""
+      "years": 9
     },
     {
       "id": 9,
       "section": "Front End",
-      "name": "HTML5",
+      "name": "Storybook",
       "experience": "",
-      "years": ""
+      "years": 5
     },
     {
       "id": 10,
-      "section": "CSS & Design",
-      "name": "Tailwind",
+      "section": "Front End",
+      "name": "HTML5",
       "experience": "",
-      "years": ""
+      "years": 9
     },
     {
       "id": 11,
       "section": "CSS & Design",
-      "name": "SCSS/SASS",
+      "name": "Tailwind",
       "experience": "",
-      "years": ""
+      "years": 5
     },
     {
       "id": 12,
       "section": "CSS & Design",
-      "name": "BEM",
+      "name": "SCSS/SASS",
       "experience": "",
-      "years": ""
+      "years": 9
     },
     {
       "id": 13,
       "section": "CSS & Design",
-      "name": "Flexbox",
+      "name": "BEM",
       "experience": "",
-      "years": ""
+      "years": 9
     },
     {
       "id": 14,
       "section": "CSS & Design",
-      "name": "CSS Grid",
+      "name": "Flexbox",
       "experience": "",
-      "years": ""
+      "years": 7
     },
     {
       "id": 15,
       "section": "CSS & Design",
-      "name": "Responsive UI/UX",
+      "name": "CSS Grid",
       "experience": "",
-      "years": ""
+      "years": 7
     },
     {
       "id": 16,
       "section": "CSS & Design",
-      "name": "Accessibility (AXE, JAWS)",
+      "name": "Responsive UI/UX",
       "experience": "",
-      "years": ""
+      "years": 9
     },
     {
       "id": 17,
+      "section": "CSS & Design",
+      "name": "Accessibility (AXE, JAWS)",
+      "experience": "",
+      "years": 8
+    },
+    {
+      "id": 18,
       "section": "Back End & API",
       "name": "Node.js",
       "experience": "",
-      "years": ""
+      "years": 5
     },
     {
+      "id": 19,
       "section": "Back End & API",
       "name": "Express.js",
       "experience": "",
-      "years": ""
+      "years": 5
     },
     {
+      "id": 20,
       "section": "Back End & API",
       "name": "PHP (Laravel, CodeIgniter)",
       "experience": "",
-      "years": ""
+      "years": 7
     },
     {
+      "id": 21,
       "section": "Back End & API",
       "name": "SQL (MySQL, MariaDB)",
       "experience": "",
-      "years": ""
+      "years": 7
     },
     {
+      "id": 22,
       "section": "Back End & API",
       "name": "RESTful APIs",
       "experience": "",
-      "years": ""
+      "years": 7
     },
     {
+      "id": 23,
       "section": "Testing",
       "name": "Vitest",
       "experience": "",
-      "years": ""
+      "years": 5
     },
     {
+      "id": 24,
       "section": "Testing",
       "name": "BrowserStack",
       "experience": "",
-      "years": ""
+      "years": 8
     },
     {
+      "id": 25,
       "section": "Cloud & DevOps",
       "name": "Azure (App Configuration)",
       "experience": "",
-      "years": ""
+      "years": 2
     },
     {
+      "id": 26,
       "section": "Cloud & DevOps",
       "name": "Docker",
       "experience": "",
-      "years": ""
+      "years": 6
     },
     {
+      "id": 27,
       "section": "Cloud & DevOps",
       "name": "GitHub Actions",
       "experience": "",
-      "years": ""
+      "years": 4
     },
     {
+      "id": 28,
       "section": "Cloud & DevOps",
       "name": "Nginx",
       "experience": "",
-      "years": ""
+      "years": 8
     },
     {
+      "id": 29,
       "section": "Cloud & DevOps",
       "name": "CI/CD Pipelines",
       "experience": "",
-      "years": ""
+      "years": 1
     },
     {
+      "id": 30,
       "section": "Tools",
       "name": "Jira",
       "experience": "",
-      "years": ""
+      "years": 7
     },
     {
+      "id": 31,
       "section": "Tools",
-      "name": "Git ( GitHub / GitLab / Bitbucket )",
+      "name": "Git (GitHub/GitLab/Bitbucket)",
       "experience": "",
-      "years": ""
+      "years": 9
     },
     {
+      "id": 32,
       "section": "Tools",
       "name": "Postman",
       "experience": "",
-      "years": ""
+      "years": 7
     },
     {
+      "id": 33,
       "section": "Tools",
       "name": "VS Code",
       "experience": "",
-      "years": ""
+      "years": 7
     },
     {
+      "id": 34,
       "section": "Tools",
-      "name": "npm/pnpm",
+      "name": "npm",
       "experience": "",
-      "years": ""
+      "years": 9
+    },
+    {
+      "id": 35,
+      "section": "Tools",
+      "name": "pnpm",
+      "experience": "",
+      "years": 2
     }
   ]
 }

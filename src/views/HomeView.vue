@@ -40,14 +40,22 @@
             </transition>
           </div>
         </header>
-        <div class="skills-grid grid items-stretch gap-4">
-          <card-shimmer v-for="skill in filteredSkills" :key="skill.id">
-            <div
-              class="flex flex-1 items-center justify-center p-2 text-center text-sm font-semibold"
+
+        <div class="flex flex-1 flex-col">
+          <div class="skills-grid grid items-stretch gap-4">
+            <card-shimmer
+              v-for="skill in filteredSkills"
+              :key="skill.id"
+              @hovered="(val) => (hoveredSkill = val ? skill : null)"
             >
-              {{ skill.name }}
-            </div>
-          </card-shimmer>
+              <div class="flex items-center justify-between gap-1">
+                <div class="flex flex-1 p-2 text-sm font-semibold">
+                  {{ skill.name }}
+                </div>
+                <div class="text-caption font-bold text-gray-400">{{ skill.years }} yrs</div>
+              </div>
+            </card-shimmer>
+          </div>
         </div>
       </section>
     </template>
@@ -70,7 +78,7 @@ type Skill = {
   section: string;
   name: string;
   experience: string;
-  years: string;
+  years: number;
 };
 
 // ** Refs **
@@ -79,6 +87,7 @@ const selectedSection = ref<string>('All');
 const { width } = useWindowSize();
 const showFilters = ref<boolean>(true);
 const uiStore = useUIStore();
+const hoveredSkill = ref<Skill | null>(null);
 
 // ** Computed **
 const theme = computed<Theme>(() => uiStore.theme);
@@ -134,6 +143,19 @@ watch(
 .dropdown-enter-to,
 .dropdown-leave-from {
   max-height: 500px; /* Set to a value larger than your dropdown's max height */
+  opacity: 1;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+.fade-enter-to,
+.fade-leave-from {
   opacity: 1;
 }
 </style>

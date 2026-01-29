@@ -1,7 +1,7 @@
 <template>
   <div
     ref="routerView"
-    class="m-4 flex-1 rounded-xl bg-gray-800 shadow-md"
+    class="m-4 flex flex-1 flex-col rounded-xl bg-gray-800 shadow-md"
     :class="isHovered ? 'overflow-auto' : 'overflow-hidden'"
   >
     <header
@@ -10,7 +10,7 @@
     >
       <slot name="header" />
     </header>
-    <div class="p-4">
+    <div class="flex flex-1 flex-col p-4">
       <slot />
     </div>
   </div>
